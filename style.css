@@ -37,3 +37,7 @@ button {
   font-weight: bold;
   padding-bottom: 5%;
 }
+#quoteDisplay {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
