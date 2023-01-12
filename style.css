@@ -1,0 +1,23 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: black;
+  font-size: ;
+}
+
+button {
+  margin-top: 3%;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+.wrapper_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 15%;
+  color: white;
+}
