@@ -7,8 +7,11 @@ const quotes = [
   "A friend to all is a friend to none",
   "The worst form of inequality is to try to make unequal things equal",
 ];
+
+// Second Array
+const quotesPlato = [""];
 // FUnction to generate quotes
-function newQuote() {
-  let randomNum = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quoteDisplay").innerHTML = quotes[randomNum];
+function newQuote(arr) {
+  const randomNum = Math.floor(Math.random() * arr.length);
+  document.getElementById("quoteDisplay").innerHTML = arr[randomNum];
 }
