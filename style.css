@@ -3,7 +3,15 @@
 }
 body {
   background-color: black;
-  font-size: ;
+  font-size: 16px;
+  background: url(/assets/pat-whelen-cHvyUM-kXoA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+h1 {
+  font-size: 3rem;
 }
 
 button {
@@ -20,4 +28,8 @@ button {
   width: 100%;
   padding-top: 15%;
   color: white;
+}
+#quoteDisplay {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
